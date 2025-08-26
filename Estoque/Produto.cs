@@ -16,5 +16,23 @@ namespace Estoque
             return Preco * Qtd_estoque;
 
         }
+
+        public void AdicionarProduto(int qtd)
+        {
+            Qtd_estoque += qtd;
+          
+        }
+
+        public void RemoverProduto(int qtd)
+        {
+            Qtd_estoque -= qtd;
+        }
+
+        //usado quando eu printo o objeto inteiro ele retorna essa frase como default
+        public override string ToString()
+        {
+            return $"{Nome_produto} , custa R$ {Preco}, tem {Qtd_estoque} no estoque";
+        }
+
     }
 }
