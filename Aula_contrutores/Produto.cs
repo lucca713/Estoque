@@ -8,28 +8,50 @@ namespace Aula_contrutores
 {
     internal class Produto
     {
-        public string Nome { get; set; }
+        private string _nome { get; set; }
 
-        public double Preco { get; set; }
+        private double _preco { get; set; }
 
-        public int Quantidade { get; set; }
+        private int _quantidade { get; set; }
+
+        //encpasulamento por propriedade
+
+        public string Nome { 
+
+            get { return _nome; } 
+
+
+            set { if (value != null && value.Length > 1) { 
+                _nome = value;
+                
+                } 
+            } 
+        }
+
+
+
+        /*encapsulamento
+        public string GetNome() {  return _nome; }
+
+        public string SetNome(string nome) { return _nome = nome; }
+        */
 
         //construtores
         public Produto()
         {
-            Quantidade = 10;
+            _quantidade = 10;
         }
 
         public Produto(string nome, double preco):this()
         {
-            Nome = nome;
-            Preco = preco;
+            _nome = nome;
+            _preco = preco;
         }
 
         public Produto(string nome, double preco, int quantidade) : this(nome, preco)
         {
             //pois quantidade nao foi instanciado no contrutor de cima
-            Quantidade = quantidade;
+            _quantidade = quantidade;
         }
     }
 }

@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           Produto produto = new Produto("TV",500.00,10);
+
+            produto.Nome = "Tv 52''";
+
+            Console.WriteLine(produto.Nome);
         }
     }
 }
