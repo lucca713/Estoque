@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque", "Estoque\Estoque.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_aumento_salario_poo", "Ex_aumento_salario_poo\Ex_aumento_salario_poo.csproj", "{13F3ACB0-C7BA-43DF-AC4E-D410975EA4A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_contrutores", "Aula_contrutores\Aula_contrutores.csproj", "{346DCC28-1FC2-43AE-B6C3-83A957CC116D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{13F3ACB0-C7BA-43DF-AC4E-D410975EA4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13F3ACB0-C7BA-43DF-AC4E-D410975EA4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13F3ACB0-C7BA-43DF-AC4E-D410975EA4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346DCC28-1FC2-43AE-B6C3-83A957CC116D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346DCC28-1FC2-43AE-B6C3-83A957CC116D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346DCC28-1FC2-43AE-B6C3-83A957CC116D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346DCC28-1FC2-43AE-B6C3-83A957CC116D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
